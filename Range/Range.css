@@ -6,10 +6,13 @@
 #zone_color{
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 100%;
  
 }
 #contro{
+  position: absolute;
   text-align: center;
+  top:30%;
+  left: 35%;
 }
 

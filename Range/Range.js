@@ -6,3 +6,19 @@ var load = (data) =>{
   bg = document.getElementById("zone_color")
   bg.style. background =  `rgb(${ran1},${ran2},${ran3}`
 }
+
+bgon = () => {
+  document.getElementById("contro").hidden = false
+  return "success"
+}
+
+bgoff = () => {
+  document.getElementById("contro").hidden = true
+  return "success"
+}
+
+start = () =>{
+  load()
+  bgoff()
+}
+start()
